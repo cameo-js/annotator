@@ -1,5 +1,5 @@
 import React from 'react'
-import { Paper, MenuList, MenuItem, TextField, RootRef } from '@material-ui/core';
+import { Paper, MenuList, MenuItem, TextField, RootRef, Icon } from '@material-ui/core';
 
 interface MenuProps {
   left: number;
@@ -53,6 +53,7 @@ export class Menu extends React.Component<MenuProps, MenuStates> {
               this.state.adding ?
               <MenuItem>
                 <TextField
+                  autoFocus
                   style={{width: '100px'}}
                   defaultValue=""
                   margin="normal"
@@ -61,7 +62,10 @@ export class Menu extends React.Component<MenuProps, MenuStates> {
                   onKeyPress={this.handleSubmit}
                 />
               </MenuItem> : 
-              <MenuItem onClick={this.handleAddTag}>add</MenuItem>
+              <MenuItem onClick={this.handleAddTag}>
+              <Icon color="primary">
+                add_circle
+              </Icon>add</MenuItem>
             }
           </MenuList>
         </Paper>
