@@ -1,11 +1,11 @@
 {
-  "main.js": "/annotator/static/js/main.4b2ba812.chunk.js",
-  "main.js.map": "/annotator/static/js/main.4b2ba812.chunk.js.map",
-  "static/js/1.b35a272b.chunk.js": "/annotator/static/js/1.b35a272b.chunk.js",
-  "static/js/1.b35a272b.chunk.js.map": "/annotator/static/js/1.b35a272b.chunk.js.map",
+  "main.js": "/annotator/static/js/main.4aca6b76.chunk.js",
+  "main.js.map": "/annotator/static/js/main.4aca6b76.chunk.js.map",
+  "static/js/1.e6708256.chunk.js": "/annotator/static/js/1.e6708256.chunk.js",
+  "static/js/1.e6708256.chunk.js.map": "/annotator/static/js/1.e6708256.chunk.js.map",
   "runtime~main.js": "/annotator/static/js/runtime~main.42b6d7aa.js",
   "runtime~main.js.map": "/annotator/static/js/runtime~main.42b6d7aa.js.map",
   "index.html": "/annotator/index.html",
-  "precache-manifest.87f5e0483682342b9a29605749e7a6d8.js": "/annotator/precache-manifest.87f5e0483682342b9a29605749e7a6d8.js",
+  "precache-manifest.2a62c333804b56649e8063554393aeb1.js": "/annotator/precache-manifest.2a62c333804b56649e8063554393aeb1.js",
   "service-worker.js": "/annotator/service-worker.js"
 }
