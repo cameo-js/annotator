@@ -83,7 +83,7 @@ class App extends Component {
   }
   onLoadFromInput = () => {
     this.setState({
-      data: this.state.multiline.split('\n').map(phrase => {
+      data: this.state.multiline.split('\n').filter(s => s !== "").map(phrase => {
         return {
           phrase,
           entities: []
@@ -101,11 +101,7 @@ class App extends Component {
   }
   parsePhrase = (data) => {
     return data.entities.reduceRight((acc, entity) => {
-      return [
-        ...acc.slice(0, entity.start),
-        ...`#${entity.tag}"${entity.text}"`,
-        ...acc.slice(entity.end, data.phrase.length)
-      ]
+      return acc.slice(0, entity.start).concat(`#${entity.tag}"${entity.text}"`).concat(acc.slice(entity.end, acc.length))
     }, data.phrase);
   }
 }

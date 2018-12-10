@@ -2,6 +2,7 @@
   "name": "annotator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cameo-js.github.io/annotator",
   "dependencies": {
     "@material-ui/icons": "^3.0.1",
     "@material-ui/core": "^3.6.1",
